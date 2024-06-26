@@ -5,6 +5,13 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 public class CountLettersTest {
 
+    /*
+    Zaimplementuj metodę countLettersAndReturnPosition w klasie Main w taki sposób,
+    aby wynik tej metody zwracał ostatnią pozycję (indeks) litery,
+    która powtarza się dokładnie dwa razy w danym wyrazie.
+    Dla uproszczenia, w każdym wyrazie będzie dokładnie jedna taka litera, która powtarza się dwa razy
+     */
+
     @ParameterizedTest
     @CsvSource({
             "Emilia,4",
