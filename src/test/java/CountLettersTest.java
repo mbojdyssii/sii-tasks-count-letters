@@ -21,10 +21,10 @@ public class CountLettersTest {
     })
     public void isCompleted(String input, int expected) {
         // when
-        int wynik = Main.countLettersAndReturnPosition(input);
+        int result = Main.countLettersAndReturnPosition(input);
 
         // then
-        Assertions.assertEquals(expected, wynik);
+        Assertions.assertEquals(expected, result);
     }
 
 }
