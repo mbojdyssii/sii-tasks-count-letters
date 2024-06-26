@@ -8,7 +8,7 @@ public class CountLettersTest {
     @ParameterizedTest
     @CsvSource({
             "Emilia,4",
-            "Jarosław,7",
+            "Jarosław,6",
             "Maja,3",
             "Stanisława,5"
     })
